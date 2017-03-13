@@ -1,0 +1,30 @@
+body {
+	background-color: #F5F5F5 !important;
+}
+
+.sh-container {
+	background-color: white;
+	margin-top: 70px;
+	padding: 3rem .5rem 1.5rem.5rem;
+}
+
+.sh-list-item {
+	display: flex;
+	flex-wrap: nowrap
+}
+
+.sh-list-item-headers {
+	border-bottom: 1px solid #F0F0F0;
+	font-weight: bold;
+	margin-bottom: .5rem;
+	padding-bottom: .5rem;
+}
+
+.sh-list-item-main-column {
+	flex-basis: 80%;
+}
+
+.sh-list-item-secondary-column {
+	flex-basis: 20%;
+	flex-grow: 1;
+}
